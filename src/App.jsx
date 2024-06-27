@@ -5,6 +5,7 @@ import {
   DoMSC,
   Footer,
   ICNAAO,
+  NITH,
   Navbar,
   Register,
 } from "./components";
@@ -15,7 +16,7 @@ function App() {
       <Navbar />
       <div className="h-screen">
         <Corousel />
-        <div className="inline-flex justify-around">
+        <div className="inline-flex justify-around w-5/6">
           <Container>
             <h2 className="text-lg font-semibold">Why ICNNAO-2024?</h2>
             <p>
@@ -36,9 +37,10 @@ function App() {
           <button>Register</button>
         </div>
       </div>
-      <main className="w-2/3 min-h-screen">
+      <main>
         <ICNAAO />
         <DoMSC />
+        <NITH />
       </main>
       <Register />
       <Contact />

@@ -5,6 +5,7 @@ import DoMSC from "./DoMSC";
 import Footer from "./Footer";
 import ICNAAO from "./ICNAAO";
 import Navbar from "./Navbar";
+import NITH from "./NITH";
 import Register from "./Register";
 
 export {
@@ -15,5 +16,6 @@ export {
   Footer,
   ICNAAO,
   Navbar,
+  NITH,
   Register,
 };
