@@ -41,7 +41,7 @@ const Navbar = () => {
 					</ul>
 				</div>
 				<a className="w-full h-full " href="/">
-					<img src="/logo1.png" alt="logo-nav" className="" />
+					<img src="/logo.png" alt="logo-nav" className="" />
 				</a>
 			</div>
 			<div className="navbar-center hidden lg:flex">

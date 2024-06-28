@@ -1,7 +1,7 @@
 export default function DoMSC() {
 	return (
 		<>
-			<div className="h-screen lg:px-20 md:px-16 px-5 items-center justify-center flex flex-col py-3">
+			<div className="h-screen lg:px-16 md:px-12 px-5 items-center justify-center flex flex-col py-3">
 				<div className="card w-full shadow-xl h-full">
 					<figure>
 						<img src="/banner1.jpg" alt="Shoes" />

@@ -1,25 +1,22 @@
 import {
 	Contact,
-	Container,
 	Carousel,
 	DoMSC,
 	Footer,
 	ICNAAO,
 	NITH,
-	Navbar,
 	Register,
 } from "./components";
+import Navbar from "./components/Navbar/NavBar2";
 import WhyUs from "./components/WhyUs";
 
 function App() {
 	return (
-		<div className="text-base">
+		<div className="">
 			<Navbar />
-			<div className="h-fit flex flex-col gap-3">
+			<div className="h-screen flex flex-col">
 				<Carousel />
-				<Container>
-					<WhyUs />
-				</Container>
+				<WhyUs />
 			</div>
 			<main>
 				<ICNAAO />

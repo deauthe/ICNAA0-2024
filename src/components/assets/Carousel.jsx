@@ -1,6 +1,6 @@
 export default function Carousel() {
 	return (
-		<section className="w-screen h-fit ">
+		<section className="w-screen h-2/3 ">
 			<div className="carousel w-full py-0 my-0 h-full">
 				<div id="slide1" className="carousel-item relative w-full">
 					<img

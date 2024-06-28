@@ -23,7 +23,7 @@ export default function ICNAAO() {
 				</div>
 
 				<img
-					src="/logo1.png"
+					src="/logo.png"
 					alt="logo"
 					className="rounded-lg  h-fit my-auto w-fit mx-auto "
 				/>
