@@ -8,7 +8,10 @@ export default function Register() {
 			<div className="bg-primary absolute w-full h-full rounded-b-badge top-0 md:rounded-b-[20%] z-10 "></div>
 			<div className="card text-primary-content w-full z-30">
 				<div className="card-body text-center">
-					<h2 className="card-title mx-auto text-center">Register</h2>
+          <h2 className="card-title mx-auto text-center mb-3 text-3xl">
+            Register
+          </h2>
+          <div className="text-justify grid gap-2">
 					<p>
 						There are two categories of registration: Contributor or Attendee.
 						An attendee can register any time before last date of registration.
@@ -49,6 +52,7 @@ export default function Register() {
 						</a>{" "}
 						.
 					</p>
+          </div>
 				</div>
 			</div>
 		</div>
