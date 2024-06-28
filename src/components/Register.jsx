@@ -1,3 +1,5 @@
+import Contact from "./ContactUs";
+
 export default function Register() {
 	return (
 		<div
@@ -5,7 +7,7 @@ export default function Register() {
 				"py-16 mx-auto items-center flex w-full  flex-col  gap-0 bg-transparent relative overflow-hidden h-full p-4"
 			}
 		>
-			<div className="bg-primary absolute w-full h-full rounded-b-badge top-0 md:rounded-b-[20%] z-10 "></div>
+			<div className="bg-primary absolute w-full h-full  top-0  z-10 "></div>
 			<div className="card text-primary-content w-full z-30">
 				<div className="card-body text-center">
 					<h2 className="card-title mx-auto text-center">Register</h2>
@@ -50,6 +52,7 @@ export default function Register() {
 						.
 					</p>
 				</div>
+				<Contact />
 			</div>
 		</div>
 	);

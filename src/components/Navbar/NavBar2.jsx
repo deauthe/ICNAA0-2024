@@ -32,8 +32,8 @@ const Navbar = () => {
 			<div
 				className={` relative ${
 					show
-						? "bg-primary mt-2 text-primary-content rounded-full"
-						: "bg-primary text-primary-content "
+						? "bg-primary mt-2 text-primary-content rounded-full border-[1px] border-primary-content/30"
+						: "bg-primary text-primary-content  "
 				} items-center w-full flex justify-between transition-all duration-500 md:px-5 px-2 py-1`}
 			>
 				<div className="flex gap-2 items-center ml-5">
@@ -47,7 +47,7 @@ const Navbar = () => {
 				{/* menu start  */}
 
 				<div
-					className={`min-h-full px-3 rounded-full absolute mx-auto left-0 right-0 w-fit my-auto  flex-row  gap-2 items-center hidden lg:flex py-2  ${
+					className={`min-h-full px-3 rounded-full absolute mx-auto left-0 right-0 w-fit my-auto  flex-row  gap-2 items-center hidden xl:flex py-2  ${
 						show ? " text-primary-content" : "text-primary-content"
 					} `}
 				>
@@ -56,7 +56,7 @@ const Navbar = () => {
 
 				<div className="  flex items-center gap-2   ">
 					{/* mobile menu  */}
-					<div className="lg:hidden block px-2">
+					<div className="xl:hidden block px-2">
 						<MenuMobile />
 					</div>
 					{/* Mobile menu end */}

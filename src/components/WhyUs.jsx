@@ -1,6 +1,6 @@
 function WhyUs() {
 	return (
-		<div className="card bg-primary text-primary-content w-full rounded-none h-auto">
+		<div className="card bg-primary text-primary-content w-full rounded-none ">
 			<div className="card-body">
 				<h2 className="card-title">Why ICNNAO-2024?</h2>
 				<p>

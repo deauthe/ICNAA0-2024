@@ -3,7 +3,7 @@ import Container from "./assets/Container";
 export default function NITH() {
 	return (
 		<Container>
-			<div className="card lg:card-side bg-base-100 shadow-xl">
+			<div className="card lg:card-side shadow-xl bg-accent text-primary-content">
 				<figure className="">
 					<img
 						src="/banner-2.jpg"
