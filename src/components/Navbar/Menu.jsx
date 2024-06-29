@@ -13,25 +13,12 @@ const Menu = () => {
 				{navMenuData.map((item, index) => {
 					return (
 						<div key={index} className="dropdown dropdown-hover ">
-							<div className="uppercase font-light bg-transparent mx-1  hover:cursor-pointer hover:scale-105 hover:text-white transition-all duration-200">
+							<a
+								href={item.url}
+								className="uppercase font-light bg-transparent mx-1  hover:cursor-pointer hover:scale-105 hover:text-white transition-all duration-200"
+							>
 								{item.name}
-							</div>
-							{item.subMenu && (
-								<ul
-									tabIndex={0}
-									className="dropdown-content z-[1] menu card-bordered p-2 shadow bg-primary/90  uppercase rounded-box w-52 "
-								>
-									{item.subMenu.map((item) => {
-										return (
-											<ListItem
-												key={item.name}
-												title={item.name}
-												href={item.url || "/"}
-											></ListItem>
-										);
-									})}
-								</ul>
-							)}
+							</a>
 						</div>
 					);
 				})}

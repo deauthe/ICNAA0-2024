@@ -1,4 +1,3 @@
-"use client";
 import { useState } from "react";
 import { navMenuData } from "./staticData";
 
@@ -42,18 +41,7 @@ const MenuMobile = () => {
 					{navMenuData.map((item, index) => {
 						return (
 							<li key={index}>
-								<details>
-									<summary>{item.name}</summary>
-									<ul>
-										{item?.subMenu?.map((sublink, index) => {
-											return (
-												<li key={index}>
-													<a href={sublink.url}>{sublink.name}</a>
-												</li>
-											);
-										})}
-									</ul>
-								</details>
+								<a href={item.url}>{item.name}</a>
 							</li>
 						);
 					})}
