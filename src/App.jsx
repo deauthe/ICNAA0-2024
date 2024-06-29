@@ -1,5 +1,4 @@
 import {
-
 	Carousel,
 	DoMSC,
 	Footer,
@@ -8,14 +7,11 @@ import {
 	Register,
 	Curriculum,
 	Container,
-
 } from "./components";
-import Curriculum from "./components/Curriculum";
 import Navbar from "./components/Navbar/NavBar2";
 import WhyUs from "./components/WhyUs";
 
 function App() {
-
 	return (
 		<div className="">
 			<Navbar />
@@ -34,7 +30,6 @@ function App() {
 			<Footer />
 		</div>
 	);
-
 }
 
 export default App;
