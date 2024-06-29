@@ -2,6 +2,7 @@ import Contact from "./ContactUs";
 import Container from "./assets/Container";
 import Carousel from "./assets/Carousel";
 import DoMSC from "./DoMSC";
+import Events from "./Events";
 import Footer from "./Footer";
 import ICNAAO from "./ICNAAO";
 import Navbar from "./Navbar/NavBar2";
@@ -15,6 +16,7 @@ export {
 	Carousel,
 	Curriculum,
 	DoMSC,
+  Events,
 	Footer,
 	ICNAAO,
 	Navbar,

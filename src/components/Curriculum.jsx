@@ -1,4 +1,5 @@
 export default function Curriculum() {
+
 	return (
 		<section className="grid md:grid-cols-3 grid-cols-1 lg:gap-5 md:gap-3 gap-2 mx-auto text-justify mb-3 ">
 			<div className="card bg-base-200 shadow-lg hover:bg-base-100 hover:cursor-pointer transition-all duration-150">
@@ -42,4 +43,5 @@ export default function Curriculum() {
 			</div>
 		</section>
 	);
+
 }
