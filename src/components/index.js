@@ -7,11 +7,13 @@ import ICNAAO from "./ICNAAO";
 import Navbar from "./Navbar/NavBar2";
 import NITH from "./NITH";
 import Register from "./Register";
+import Curriculum from "./Curriculum";
 
 export {
 	Contact,
 	Container,
 	Carousel,
+	Curriculum,
 	DoMSC,
 	Footer,
 	ICNAAO,

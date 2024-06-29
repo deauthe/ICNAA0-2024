@@ -1,4 +1,13 @@
-import { Carousel, DoMSC, Footer, ICNAAO, NITH, Register } from "./components";
+import {
+	Carousel,
+	DoMSC,
+	Footer,
+	ICNAAO,
+	NITH,
+	Register,
+	Curriculum,
+	Container,
+} from "./components";
 import Navbar from "./components/Navbar/NavBar2";
 import WhyUs from "./components/WhyUs";
 
@@ -10,11 +19,12 @@ function App() {
 				<Carousel />
 				<WhyUs />
 			</div>
-			<main>
+			<Container className={"flex flex-col"}>
 				<ICNAAO />
 				<DoMSC />
+				<Curriculum />
 				<NITH />
-			</main>
+			</Container>
 			<Register />
 
 			<Footer />

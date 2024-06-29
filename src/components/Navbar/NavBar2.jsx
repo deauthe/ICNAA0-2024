@@ -23,7 +23,7 @@ const Navbar = () => {
 	return (
 		<div
 			className={` w-full h-[50px] items-center md:h-[80px]  z-50 fixed  top-0 transition-all duration-500  ${
-				show ? "px-1" : ""
+				show ? "" : ""
 			} `}
 		>
 			{/* <div
@@ -32,9 +32,9 @@ const Navbar = () => {
 			<div
 				className={` relative ${
 					show
-						? "bg-primary mt-2 text-primary-content rounded-full border-[1px] border-primary-content/30"
-						: "bg-primary text-primary-content  "
-				} items-center w-full flex justify-between transition-all duration-500 md:px-5 px-2 py-1`}
+						? "bg-primary text-primary-content rounded-b-3xl border-b-[1px] border-primary-content/30"
+						: "bg-primary text-primary-content rounded-b-lg "
+				} items-center w-full flex justify-between transition-all duration-500 py-1`}
 			>
 				<div className="flex gap-2 items-center ml-5">
 					<a href="/">
@@ -47,7 +47,7 @@ const Navbar = () => {
 				{/* menu start  */}
 
 				<div
-					className={`min-h-full px-3 rounded-full absolute mx-auto left-0 right-0 w-fit my-auto  flex-row  gap-2 items-center hidden xl:flex py-2  ${
+					className={`min-h-full px-3 rounded-3xl mx-auto left-0 right-0 w-fit my-auto  flex-row  gap-2 items-center hidden xl:flex py-2  ${
 						show ? " text-primary-content" : "text-primary-content"
 					} `}
 				>
