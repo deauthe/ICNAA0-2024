@@ -1,8 +1,9 @@
+import banner2 from "../assets/banner2.jpg";
 export default function NITH() {
 	return (
 		<div className="card lg:card-side shadow-xl bg-primary text-primary-content">
 			<figure className="">
-				<img src="/banner-2.jpg" alt="Album" className="object-cover h-full" />
+				<img src={banner2} alt="Album" className="object-cover h-full" />
 			</figure>
 			<div className="card-body">
 				<h2 className="card-title">NIT Hamipur</h2>

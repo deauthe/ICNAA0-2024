@@ -1,5 +1,5 @@
 import Contact from "./ContactUs";
-
+import regFee from "../assets/regFee.png";
 export default function Register() {
 	return (
 		<div
@@ -8,7 +8,6 @@ export default function Register() {
 				"py-16 mx-auto items-center flex w-full  flex-col  gap-0 bg-transparent relative overflow-hidden h-full p-4"
 			}
 		>
-
 			<div className="bg-primary absolute w-full h-full  top-0  z-10 "></div>
 			<div className=" text-primary-content w-full z-30 prose-p:text-primary-content/80 prose-a:text-secondary">
 				<div className=" w-full  mx-auto  ">
@@ -147,11 +146,10 @@ export default function Register() {
 						</div>
 						<div className="p-0 card ">
 							<figure>
-								<img src="/regFee.png" alt="" />
+								<img src={regFee} alt="" />
 							</figure>
 						</div>
 					</div>
-
 				</div>
 				<Contact />
 			</div>

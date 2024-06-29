@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Menu from "./Menu";
 import MenuMobile from "./MenuMobile";
-
+import logo from "../../assets/logo.png";
 const Navbar = () => {
 	const [show, setShow] = useState(false);
 
@@ -39,7 +39,7 @@ const Navbar = () => {
 				<div className="flex gap-2 items-center ml-5">
 					<a href="/">
 						<div className=" flex items-end gap-2 ">
-							<img src="/logo.png" alt="logo" className="" />
+							<img src={logo} alt="logo" className="" />
 						</div>
 					</a>
 				</div>

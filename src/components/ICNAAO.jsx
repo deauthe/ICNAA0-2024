@@ -1,3 +1,4 @@
+import logo from "../assets/logo.png";
 export default function ICNAAO() {
 	return (
 		<div className="flex flex-col md:flex-row gap-3 justify-between bg-primary rounded-3xl md:pr-2 ">
@@ -20,7 +21,7 @@ export default function ICNAAO() {
 			</div>
 
 			<img
-				src="/logo.png"
+				src={logo}
 				alt="logo"
 				className="rounded-lg  h-fit my-auto w-fit mx-auto "
 			/>
