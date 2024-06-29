@@ -1,5 +1,5 @@
 {
-	"name": "icnaa0-2024",
+	"name": "icnaao24.github.io",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
@@ -35,5 +35,5 @@
 		"eslint-plugin-react-refresh": "^0.4.7",
 		"vite": "^5.3.1"
 	},
-	"homepage": "https://deauthe.github.io/ICNAAO-2024/"
+	"homepage": "https://deauthe.github.io/icnaao24.github.io/"
 }

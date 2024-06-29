@@ -3,7 +3,7 @@ import banner1 from "../../assets/banner1.jpg";
 
 export default function Carousel() {
 	return (
-		<section id="carousel" className="w-screen h-2/3 min-h-96">
+		<section id="carousel" className="w-screen md:h-2/3 h-auto ">
 			<div className="carousel w-full py-0 my-0 h-full">
 				<div id="slide1" className="carousel-item relative w-full">
 					<img src={banner1} className="w-full" />

@@ -15,7 +15,7 @@ function App() {
 	return (
 		<div className="">
 			<Navbar />
-			<div className="h-screen flex flex-col bg-black">
+			<div className="min-h-screen h-fit flex flex-col bg-black ">
 				<Carousel />
 				<WhyUs />
 			</div>
