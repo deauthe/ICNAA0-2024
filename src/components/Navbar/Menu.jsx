@@ -15,7 +15,7 @@ const Menu = () => {
 						<div key={index} className="dropdown dropdown-hover ">
 							<a
 								href={item.url}
-								className="uppercase font-light bg-transparent mx-1  hover:cursor-pointer hover:scale-105 hover:text-white transition-all duration-200"
+								className="uppercase font-light bg-transparent mx-1 text-primary-content/80 hover:cursor-pointer lg:hover:text-xl hover:text-white transition-all duration-200"
 							>
 								{item.name}
 							</a>
