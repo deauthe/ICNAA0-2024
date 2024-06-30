@@ -6,7 +6,9 @@ export default function NITH() {
 				<img src={banner2} alt="Album" className="object-cover h-full" />
 			</figure>
 			<div className="card-body">
-				<h2 className="card-title">NIT Hamipur</h2>
+				<h2 className="card-title font-extrabold tracking-tight">
+					NIT Hamipur
+				</h2>
 				<p>
 					The National Institute of Technology Hamirpur is one of the thirty-one
 					NITs of the country, which came into existence in 1986 as Regional

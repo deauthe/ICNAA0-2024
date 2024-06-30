@@ -9,11 +9,13 @@ import {
 	Container,
 } from "./components";
 import Navbar from "./components/Navbar/NavBar2";
+import Speakers from "./components/Speakers";
+import Updates from "./components/Updates";
 import WhyUs from "./components/WhyUs";
 
 function App() {
 	return (
-		<div className="">
+		<div className="bg-base-300">
 			<Navbar />
 			<div className="min-h-screen h-fit flex flex-col bg-black ">
 				<Carousel />
@@ -25,7 +27,11 @@ function App() {
 				<Curriculum />
 				<NITH />
 			</Container>
+
 			<Register />
+
+			<Speakers />
+			<Updates />
 
 			<Footer />
 		</div>

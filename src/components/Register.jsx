@@ -1,4 +1,3 @@
-import Contact from "./ContactUs";
 import regFee from "../assets/regFee.png";
 export default function Register() {
 	return (
@@ -151,7 +150,6 @@ export default function Register() {
 						</div>
 					</div>
 				</div>
-				<Contact />
 			</div>
 		</div>
 	);

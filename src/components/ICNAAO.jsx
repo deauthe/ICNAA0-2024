@@ -2,7 +2,7 @@ import logo from "../assets/logo.png";
 export default function ICNAAO() {
 	return (
 		<div className="flex flex-col md:flex-row gap-3 justify-between bg-primary rounded-3xl md:pr-2 ">
-			<div className="card bg-primary text-primary-content w-full min-h-96">
+			<div className="card bg-primary text-primary-content w-full ">
 				<div className="card-body ">
 					<h2 className="card-title">ICNAAO 2024</h2>
 					<p className=" md:w-2/3">
