@@ -13,7 +13,7 @@ export default function Updates() {
 		<div
 			id="updates"
 			className={
-				"py-16 mx-auto items-center flex w-full  flex-col  gap-0 bg-transparent relative overflow-hidden h-full p-4"
+				" mx-auto items-center flex w-full  flex-col  gap-0 bg-transparent relative overflow-hidden h-full p-4"
 			}
 		>
 			<div className="divider opacity-60 lg:text-3xl md:text-2xl text-lg font-bold uppercase">

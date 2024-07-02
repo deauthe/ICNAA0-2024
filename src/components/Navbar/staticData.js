@@ -31,7 +31,22 @@ export const navMenuData = [
 	},
 	{
 		id: 4,
-		name: "Contact Us",
-		url: "#footer",
+		name: "Dates",
+		url: "#dates",
+	},
+	{
+		id: 4,
+		name: "History",
+		url: "#history",
+	},
+	{
+		id: 4,
+		name: "Accomodation",
+		url: "#accomodation",
+	},
+	{
+		id: 4,
+		name: "Directions",
+		url: "#directions",
 	},
 ];
