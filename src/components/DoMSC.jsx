@@ -1,10 +1,12 @@
+import banner2 from "../assets/banner2.jpg";
+
 export default function DoMSC() {
 	return (
 		<>
 			<div className="h-screen items-center justify-center flex flex-col py-3">
 				<div className="card w-full shadow-xl h-full bg-primary text-primary-content">
 					<figure>
-						<img src="/banner1.jpg" alt="Shoes" />
+						<img src={banner2} alt="Shoes" />
 					</figure>
 					<div className="card-body ">
 						<h2 className="card-title">

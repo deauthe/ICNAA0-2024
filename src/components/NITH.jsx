@@ -1,11 +1,14 @@
+import banner2 from "../assets/banner2.jpg";
 export default function NITH() {
 	return (
 		<div className="card lg:card-side shadow-xl bg-primary text-primary-content">
 			<figure className="">
-				<img src="/banner-2.jpg" alt="Album" className="object-cover h-full" />
+				<img src={banner2} alt="Album" className="object-cover h-full" />
 			</figure>
 			<div className="card-body">
-				<h2 className="card-title">NIT Hamipur</h2>
+				<h2 className="card-title font-extrabold tracking-tight">
+					NIT Hamipur
+				</h2>
 				<p>
 					The National Institute of Technology Hamirpur is one of the thirty-one
 					NITs of the country, which came into existence in 1986 as Regional

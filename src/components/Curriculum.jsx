@@ -1,10 +1,9 @@
 export default function Curriculum() {
-
 	return (
 		<section className="grid md:grid-cols-3 grid-cols-1 lg:gap-5 md:gap-3 gap-2 mx-auto text-justify mb-3 ">
-			<div className="card bg-base-200 shadow-lg hover:bg-base-100 hover:cursor-pointer transition-all duration-150">
-				<div className="card-body">
-					<h3 className="font-semibold card-title">OUR EDUCATION</h3>
+			<div className="card bg-base-200 shadow-lg hover:bg-base-100 hover:cursor-pointer transition-all duration-150 hover:scale-105">
+				<div className="card-body ">
+					<h3 className="font-extrabold card-title">OUR EDUCATION</h3>
 					<p>
 						Lorem ipsum dolor consectetursit amet, consectetur adipiscing elit
 						consectetur euismod Lorem ipsum dolor sit amet, ea eum labitur
@@ -16,9 +15,9 @@ export default function Curriculum() {
 					</p>
 				</div>
 			</div>
-			<div className="card bg-base-200 shadow-lg hover:bg-base-100 hover:cursor-pointer transition-all duration-150">
+			<div className="card bg-base-200 shadow-lg hover:bg-base-100 hover:cursor-pointer transition-all duration-150 hover:scale-105">
 				<div className="card-body">
-					<h3 className="font-semibold card-title">Courses</h3>
+					<h3 className="font-extrabold card-title">Courses</h3>
 					<ul className="list-disc list-inside">
 						<li>Lorem ipsum dolor sit amet.</li>
 						<li>Lorem ipsum dolor sit amet consectetur.</li>
@@ -26,9 +25,9 @@ export default function Curriculum() {
 					</ul>
 				</div>
 			</div>
-			<div className="card bg-base-200 shadow-lg hover:bg-base-100 hover:cursor-pointer transition-all duration-150">
+			<div className="card bg-base-200 shadow-lg hover:bg-base-100 hover:cursor-pointer transition-all duration-150 hover:scale-105">
 				<div className="card-body">
-					<h2 className="card-title">
+					<h2 className="card-title font-extrabold">
 						Latest News
 						<div className="badge badge-secondary">NEW</div>
 					</h2>
@@ -43,5 +42,4 @@ export default function Curriculum() {
 			</div>
 		</section>
 	);
-
 }
