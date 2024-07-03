@@ -7,6 +7,8 @@ import {
 	Register,
 	Curriculum,
 	Container,
+	Accomodation,
+	HowToReach,
 } from "./components";
 import Navbar from "./components/Navbar/NavBar2";
 import Speakers from "./components/Speakers";
@@ -24,14 +26,18 @@ function App() {
 			<Container className={"flex flex-col"}>
 				<ICNAAO />
 				<DoMSC />
-				<Curriculum />
 				<NITH />
+				<Curriculum />
 			</Container>
 
 			<Register />
 
 			<Speakers />
 			<Updates />
+			<div className="md:grid px-4 gap-4 mx-auto md:grid-cols-2">
+				<Accomodation />
+				<HowToReach />
+			</div>	
 
 			<Footer />
 		</div>
