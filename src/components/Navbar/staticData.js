@@ -2,7 +2,7 @@ export const navMenuData = [
 	{
 		id: 6,
 		name: "Home",
-		url: "#carousel",
+		url: "/",
 	},
 	{
 		id: 7,
