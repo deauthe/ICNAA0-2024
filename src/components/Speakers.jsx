@@ -1,8 +1,7 @@
 import CarouselDApiDemo from "./Carousel";
 import {
 	KeyNoteSpeakerCards,
-	PlenarySpeakerCards,
-	InvitedSpeakerCards,
+	CommitteeSpeakerCards,
 } from "./staticSpeakerData";
 
 export default function Speakers() {
@@ -18,14 +17,9 @@ export default function Speakers() {
 			</div>
 			<CarouselDApiDemo carouselItems={KeyNoteSpeakerCards} />
 			<div className="divider opacity-60 lg:text-3xl md:text-2xl text-xl font-bold uppercase lg:my-10 my-5">
-				plenary Speakers
+				Comittee
 			</div>
-			<CarouselDApiDemo carouselItems={PlenarySpeakerCards} />
-
-			<div className="divider opacity-60 lg:text-3xl md:text-2xl text-xl font-bold uppercase lg:my-10 my-5">
-				invited Speakers
-			</div>
-			<CarouselDApiDemo carouselItems={InvitedSpeakerCards} />
+			<CarouselDApiDemo carouselItems={CommitteeSpeakerCards} />
 		</div>
 	);
 }
