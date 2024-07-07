@@ -5,6 +5,7 @@ import {
 } from "../ui/navigation-menu";
 import { cn } from "../../lib/utils";
 import { navMenuData } from "./staticData";
+import { Link } from "react-router-dom";
 
 const Menu = () => {
 	return (
@@ -13,12 +14,12 @@ const Menu = () => {
 				{navMenuData.map((item, index) => {
 					return (
 						<div key={index} className="dropdown dropdown-hover ">
-							<a
-								href={item.url}
+							<Link
+								to={item.url}
 								className="uppercase font-light bg-transparent mx-1 text-primary-content/80 hover:cursor-pointer lg:hover:text-xl hover:text-white transition-all duration-200"
 							>
 								{item.name}
-							</a>
+							</Link>
 						</div>
 					);
 				})}
