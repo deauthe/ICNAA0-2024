@@ -12,6 +12,7 @@ import Navbar from "./Navbar/NavBar2";
 import NITH from "./NITH";
 import Register from "./Register";
 import Curriculum from "./Curriculum";
+import ScrollToHashElement from "./assets/Scrolltoview";
 
 export {
 	Accomodation,
@@ -28,4 +29,5 @@ export {
 	Navbar,
 	NITH,
 	Register,
+	ScrollToHashElement,
 };
