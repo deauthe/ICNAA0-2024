@@ -17,8 +17,8 @@ export const navMenuData = [
     },
     {
         id: 3,
-        name: "Speakers",
-        url: baseUrl + "/speakers",
+        name: "Speakers & Committee",
+        url: baseUrl + "/speakers-committee",
     },
     {
         id: 5,
