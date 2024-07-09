@@ -32,12 +32,12 @@ const MenuMobile = () => {
 			</SheetTrigger>
 			<SheetContent className="bg-primary text-primary-content border-none rounded-l-lg ">
 				<SheetHeader>
-					<SheetTitle className="text-white font-extrabold text-3xl">
-						ICNAAO
+					<SheetTitle className="text-white font-bold text-2xl">
+						ICNAAO 2024
 					</SheetTitle>
 				</SheetHeader>
 				{/* daisy ui magic for nested list  */}
-				<ul className="menu bg-transparent w-full rounded-box active:glass prose-md uppercase text-md ">
+				<ul className="menu bg-transparent w-full rounded-box active:glass prose-md text-md ">
 					{navMenuData.map((item, index) => {
 						return (
 							<li key={index}>
@@ -49,8 +49,8 @@ const MenuMobile = () => {
 				{/* end of nested lists  */}
 				<SheetFooter>
 					<aside>
-						<p className="text-muted-foreground">
-							Copyright © 2024 - All right reserved by NITH
+						<p className="text-muted-foreground mt-11 w-3/4 mx-auto">
+							&copy; 2024 - All right reserved by DoMSC NITH
 						</p>
 					</aside>
 				</SheetFooter>

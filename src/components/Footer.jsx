@@ -1,6 +1,7 @@
 import { MailCheckIcon, PhoneCallIcon } from "lucide-react";
 import { navMenuData } from "./Navbar/staticData";
 import { FaFacebook, FaWhatsapp, FaYoutube } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
 	return (
@@ -33,13 +34,15 @@ export default function Footer() {
 
 				<nav>
 					<h6 className="footer-title">Navigation</h6>
+                    <div className="grid grid-cols-2 gap-2">
 					{navMenuData.map((item) => {
 						return (
-							<a key={item.name} className="link link-hover" href={item.url}>
+							<Link key={item.name} className="link link-hover" href={item.url}>
 								{item.name}
-							</a>
+							</Link>
 						);
 					})}
+                    </div>
 				</nav>
 
 				<nav>
@@ -49,19 +52,19 @@ export default function Footer() {
 							className="link link-secondary"
 							href="https://chat.whatsapp.com/BgZBG41bKIL6nUR6H7GgRm"
 						>
-							<FaWhatsapp size={22} />
+							<FaWhatsapp size={26} />
 						</a>
 						<a
 							className="link link-secondary"
 							href="https://www.youtube.com/channel/UCWuK-g6soF7fM8t-sAvFoNw"
 						>
-							<FaYoutube size={22} />
+							<FaYoutube size={26} />
 						</a>
 						<a
 							className="link link-secondary"
 							href="https://www.google.com/url?q=https%3A%2F%2Fwww.facebook.com%2Fpeople%2FIcnaao2024%2F61561891762997%2F&sa=D&sntz=1&usg=AOvVaw1iwVHOroY7w3OyEfPTK5xz"
 						>
-							<FaFacebook size={22} />
+							<FaFacebook size={26} />
 						</a>
 					</div>
 				</nav>
@@ -69,8 +72,7 @@ export default function Footer() {
 			<hr className="opacity-40  h-[1px] mx-auto w-5/6" />
 			<aside className="text-neutral-content my-2">
 				<p>
-					Copyright © ${new Date().getFullYear()} - All right reserved by ACME
-					Industries Ltd
+					&copy; {new Date().getFullYear()} - All right reserved by DoMSC, NIT Hamirpur.
 				</p>
 			</aside>
 		</div>

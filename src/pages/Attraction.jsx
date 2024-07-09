@@ -1,10 +1,10 @@
-import places from "../places.json";
+import Data from "../data.json";
 
 export default function AttractionPage() {
   return (
     <div className="flex w-5/6 mx-auto flex-col justify-center items-center h-screen">
       {/* TODO: improve the UI */}
-      {places.map((place, index) => (
+      {Data.places.map((place, index) => (
         <div
           key={index}
           className="mb-3 border border-secondary rounded-md shadow shadow-slate-400 p-2">
