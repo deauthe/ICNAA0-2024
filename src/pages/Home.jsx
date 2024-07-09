@@ -24,7 +24,6 @@ export default function Home() {
                 <Curriculum />
             </Container>
 
-            <Speakers />
             <Updates />
         </div>
     );
