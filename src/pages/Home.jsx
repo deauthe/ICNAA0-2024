@@ -6,7 +6,6 @@ import {
     Curriculum,
     Container,
 } from "../components";
-import Speakers from "../components/Speakers";
 import Updates from "../components/Updates";
 import WhyUs from "../components/WhyUs";
 

@@ -2,24 +2,16 @@ import Data from "../data.json";
 
 export default function Curriculum() {
     return (
-        <section className="grid md:grid-cols-2 lg:gap-5 md:gap-3 gap-2 mx-auto text-justify my-3 ">
-            <div className="card bg-base-200 shadow-lg hover:bg-base-100 hover:cursor-pointer transition-all duration-150 hover:scale-105">
+        <section className="max-w-8xl w-full mx-auto text-left my-3 ">
+            <div className="card w-full bg-base-200 shadow-lg hover:bg-base-100 hover:cursor-pointer transition-all duration-150 hover:scale-[101%]">
                 <div className="card-body ">
                     <h3 className="font-extrabold card-title">Topics</h3>
-                  <ul className="list-decimal list-inside">
-                    {Data.themes.map((theme, index) => (
-                        <li key={index}>{theme}</li>
-                    ))}
-                    </ul> 
-                </div>
-            </div>
-            <div className="card bg-base-200 shadow-lg hover:bg-base-100 hover:cursor-pointer transition-all duration-150 hover:scale-105">
-                <div className="card-body">
-                    <h3 className="font-extrabold card-title">Courses</h3>
-                    <ul className="list-disc list-inside">
-                        <li>Lorem ipsum dolor sit amet.</li>
-                        <li>Lorem ipsum dolor sit amet consectetur.</li>
-                        <li>Lorem ipsum dolor sit.</li>
+                    <ul className="list-disc list-outside grid lg:grid-rows-5 md:grid-flow-col md:grid-rows-10 gap-2">
+                        {Data.themes.map((theme, index) => (
+                            <li className="text-base font-semibold" key={index}>
+                                {theme}
+                            </li>
+                        ))}
                     </ul>
                 </div>
             </div>
