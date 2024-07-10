@@ -1,5 +1,23 @@
-[
-  {
+{
+  "themes" : [
+       "Linear and Non-linear Optimization",
+       "Combinatorial Optimization",
+       "Optimization Algorithms and Applications",
+       "Heuristics and Metaheuristics",
+       "Multi-objective Optimization",
+       "Optimization for Machine Learning",
+       "Optimization for Sustainability",
+       "Optimization and Learning under uncertainty",
+       "Fixed Point Theory",
+       "Nonlinear Analysis",
+       "Fractals",
+       "Dynamical Systems/Mathematical Modelling",
+       "Soft Computing/Decision Making",
+       "Variational Inequalities",
+       "Numerical Analysis and Discrete Mathematics"
+    ],
+  "places":[
+    {
     "name": "Jwala Devi Temple",
     "location": "Jwala Mukhi",
     "district": "Kangra",
@@ -29,4 +47,5 @@
     "district": "Sirmour",
     "details": "The Bhimakali Temple is a temple at Sarahan in Himachal Pradesh in India, dedicated to the mother goddess Bhimakali, presiding deity of the rulers of former Bushahr State. The temple is situated about 180 km from Shimla and is one of 51 Shakti Peethas. The town Sarahan is known as the gateway of Kinnaur."
   }
-]
+  ]
+}
