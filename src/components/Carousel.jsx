@@ -29,13 +29,13 @@ export default function CarouselDApiDemo({ carouselItems }) {
     }, [api]);
 
     return (
-        <div className="w xl:max-w-7xl lg:max-w-6xl md:max-w-4xl max-w-sm  lg:px-10 md:px-5 px-6">
+        <div className=" xl:max-w-7xl lg:max-w-6xl md:max-w-4xl max-w-sm  lg:px-10 md:px-5 px-6">
             <Carousel setApi={setApi} className="w-full h-fit mb-5">
                 <CarouselContent className="">
                     {carouselItems.map((item, index) => {
                         return (
                             <CarouselItem
-                                className="lg:max-w-sm max-w-xs w-fit"
+                                className="lg:max-w-sm max-w-xs"
                                 key={index}
                             >
                                 {item}

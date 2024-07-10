@@ -14,7 +14,7 @@ export default function Speakers() {
         <div
             id="speakers"
             className={
-                " items-center flex w-full  flex-col  gap-0 bg-black relative overflow-hidden h-full p-4 max-w-7xl text-white"
+                " items-center flex w-full  flex-col  gap-0 bg-black relative overflow-hidden h-full px-4 max-w-7xl  text-white"
             }
         >
             <div className="divider lg:text-3xl md:text-2xl text-xl font-bold uppercase lg:my-10 my-5">
@@ -24,6 +24,7 @@ export default function Speakers() {
             <div className="divider divider-secondary lg:text-3xl md:text-2xl text-xl font-bold uppercase lg:my-10 my-5">
                 Comittee
             </div>
+
             <div className=" lg:text-xl md:text-lg text-base font-bold uppercase lg:my-7 my-3">
                 Patrons
             </div>

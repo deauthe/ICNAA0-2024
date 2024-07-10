@@ -387,7 +387,7 @@ export const SpeakerCard = ({
 }) => {
     console.log("image:", image);
     return (
-        <div className="card card-compact bg-gradient-to-br from-primary to-base-300 shadow-lg h-80 hover:bg-primary/80 hover:text-primary-content transition-all duration-200  ">
+        <div className="card card-compact bg-base-300/50 hover:cursor-pointer  shadow-lg h-80 hover:bg-primary hover:text-primary-content transition-all duration-200  ">
             <figure className="bg-[#ffffff] min-h-[150px]">
                 <img src={image} alt="object-fill" />
             </figure>
